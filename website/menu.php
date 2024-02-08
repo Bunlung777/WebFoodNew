@@ -88,28 +88,26 @@ $setfood = $village->fetch();
             <div class="image-flex">
               <div class="flex">
                 <img
-                  src="https://images.unsplash.com/photo-1684610525381-34b7e6a098ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D"
-                  alt=""
+                <?php echo 'src="data:image/jpeg;base64,'.base64_encode($setfood['ImgFood0']).'" ' ?> 
                 />
               </div>
               <div class="flex">
                 <img
-                  src="https://images.unsplash.com/photo-1699614614449-d19235e38574?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
+                <?php echo 'src="data:image/jpeg;base64,'.base64_encode($setfood['ImgFood1']).'" ' ?> 
+                />
+              </div>
+              <?php if($setfood['ImgFood2'] != null){ ?>
+              <div class="flex">
+                <img
+                <?php echo 'src="data:image/jpeg;base64,'.base64_encode($setfood['ImgFood2']).'" ' ?> 
                 />
               </div>
               <div class="flex">
                 <img
-                  src="https://images.unsplash.com/photo-1700578075560-ebacba6e5d22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
+                <?php echo 'src="data:image/jpeg;base64,'.base64_encode($setfood['ImgFood3']).'" ' ?> 
                 />
               </div>
-              <div class="flex">
-                <img
-                  src="https://images.unsplash.com/photo-1700403748616-94e54842caf1?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
-                />
-              </div>
+              <?php }?>
             </div>
           </div>
         </div>
