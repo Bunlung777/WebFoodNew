@@ -35,9 +35,7 @@ $setfood = $village->fetchAll();
 <body class="font-body">
   <?php include '../include/navbar.php' ?>
   <div class="content">
-    <div class="content_village">
-      <h1 class="text-content">หมู่บ้านในโครงการ</h1>
-    </div>
+    <img src="../img/IMG_5561.jpg">
   </div>
   <!--  -->
   <div class="container-main">

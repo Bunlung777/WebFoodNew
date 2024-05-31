@@ -9,21 +9,24 @@ html {
 }
 
 .content {
-  margin: 0rem 0rem;
+  /* margin: 0rem 0rem;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/francesco-ungaro-3_MEgdUNMH0-unsplash.jpg");
+    url("https://loeifood.lru.ac.th/Web-Food/img/kevin-kruger-B1DbAp0viKw-unsplash.jpg");
   background-position: center;
-  background-size: cover;
-  height: 40vh;
+  background-size: cover;*/
+  /* height: 40vh;  */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* border: 1px solid red; */
 }
 
-.content .content_village h1 {
+.content image{
+  width: 100%;
+}
+
+/* .content .content_village h1 {
   font-size: 30px;
   color: #ffffff;
-}
+} */
 
 body {
   font-family: "Taviraj", serif;
@@ -260,15 +263,15 @@ body {
 
 @media (max-width: 950px) {
   .content {
-    margin: 0rem 0rem;
+    /* margin: 0rem 0rem;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../img/francesco-ungaro-3_MEgdUNMH0-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 25vh;
+    height: 25vh; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .control_village {
@@ -282,7 +285,7 @@ body {
 
 @media (max-width:820px) {
 
-  .content {
+  /* .content {
     margin: 0rem 0rem;
     background: linear-gradient(rgba(0, 0, 0, .7),
         rgba(0, 0, 0, .7)),
@@ -294,7 +297,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .village-story {
     max-width: 100%;
@@ -353,6 +356,16 @@ body {
 
   .container-main .box-main .image-main .image-flex {
     display: none;
+  }
+}
+@media (max-width: 450px) {
+  .content {
+    display: flex;
+    height: 65px;
+  }
+  
+  .content image{
+    width: 100%;
   }
 }
 @media (max-width: 300px) {

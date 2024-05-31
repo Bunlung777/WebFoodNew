@@ -8,19 +8,17 @@ html {
   scroll-behavior: smooth;
 }
 .content {
-  margin: 0rem 0rem;
+  /* margin: 0rem 0rem;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://images.unsplash.com/photo-1699079526836-3e1e8ecd5dc7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 40vh; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
-.content .content_village h1 {
-  font-size: 30px;
-  color: #ffffff;
+.content image {
+  width: 100%;
 }
 
 .body-main{
@@ -74,7 +72,7 @@ html {
 
 .container-main {
   position: relative;
-  width: 1100px;
+  width: 1100px;  
   margin: 1rem auto;
 }
 
@@ -182,15 +180,15 @@ html {
 
 @media (max-width: 950px) {
   .content {
-    margin: 0rem 0rem;
+    /* margin: 0rem 0rem;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../img/francesco-ungaro-3_MEgdUNMH0-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 25vh;
+    height: 25vh; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .control_village {
@@ -204,7 +202,7 @@ html {
 
 @media (max-width:820px) {
 
-  .content {
+  /* .content {
     margin: 0rem 0rem;
     background: linear-gradient(rgba(0, 0, 0, .7),
         rgba(0, 0, 0, .7)),
@@ -216,7 +214,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .container-main {
     position: relative;
@@ -300,14 +298,27 @@ html {
     max-width: 100%;
   }
 }
+@media (max-width: 450px) {
+  .content {
+    /* margin: 0rem 0rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("https://images.unsplash.com/photo-1699079526836-3e1e8ecd5dc7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    height: 40vh; */
+    display: flex;
+    height: 62px;
+  
+  }
+  .content image {
+    width: 100%;
+  }
+  
+}
 @media (max-width: 300px) {
   .content .content_village .text-content {
     font-size: 7vw;
     color: #dfdfdf;
   }
-  /* .food-village {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-  } */
+
 }

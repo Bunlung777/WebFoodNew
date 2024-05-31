@@ -96,10 +96,8 @@ $village->execute(); $ingredients = $village->fetch(); ?>
   <body class="body-main">
     <?php include '../include/navbar.php' ?>
     <div class="content">
-      <div class="content_village">
-        <h1>ตำรับอาหาร</h1>
-      </div>
-    </div>
+    <img src="../img/IMG_5639 2.jpg">
+  </div>
     <!--  -->
     <div class="container-main">
       <div class="box-main">
