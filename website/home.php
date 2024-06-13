@@ -35,26 +35,26 @@ include "../Config/DB.php";
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <img src="../img/pawel-czerwinski-MJaOfyffXSw-unsplash.jpg">
+        <img src="../img/IMG_5561.jpg">
           <div class="text">
             <div class="text-respon">
-              <h1>โครงการ</h1>
-              <h1 class="css-style">พลิกโฉมมหาวิทยาลัย</h1>
+              <!-- <h1>โครงการ</h1>
+              <h1 class="css-style">พลิกโฉมมหาวิทยาลัย</h1> -->
             </div>
           </div>
         </div>
 
         <div class="mySlides fade">
-          <img src="../img/martin-martz-zEa54wu6IYY-unsplash.jpg">
+        <img src="../img/IMG_5639 2.jpg">
           <div class="text">
             <div class="text-respon">
-              <h1>โครงการ</h1>
-              <h1 class="css-style">พลิกโฉมมหาวิทยาลัย</h1>
+              <!-- <h1>โครงการ</h1>
+              <h1 class="css-style">พลิกโฉมมหาวิทยาลัย</h1> -->
             </div>
           </div>
         </div>
 
-        <div class="mySlides fade">
+        <!-- <div class="mySlides fade">
           <img src="../img/boliviainteligente-beCUr7D24Vs-unsplash.jpg">
           <div class="text">
             <div class="text-respon">
@@ -62,7 +62,7 @@ include "../Config/DB.php";
               <h1 class="css-style">พลิกโฉมมหาวิทยาลัย</h1>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Next and previous buttons -->
         <a class="btn-prev" onclick="plusSlides(-1)">&#10094;</a>

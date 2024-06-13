@@ -65,7 +65,8 @@ $setfood = $stmt->fetchAll();
 <?php include '../include/navbar.php' ?>
   <div class="content">
     <div class="content_village">
-    <h1 class="text-content">สำรับอาหาร</h1>
+    <!-- <h1 class="text-content">สำรับอาหาร</h1> -->
+     <img src="../img/IMG_5561.jpg" alt="">
     </div>
   </div>
   <!--  -->

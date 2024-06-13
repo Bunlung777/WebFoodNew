@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-        <a href="#" class="logo">โครงการหมู่บ้าน</a>
+        <a href="../website/home.php" class="logo">โครงการหมู่บ้าน</a>
 
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar"><i class="fa-solid fa-bars"></i></label>

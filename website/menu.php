@@ -71,7 +71,8 @@ $setfood = $village->fetch();
 <body class="font-body">
   <div class="content">
     <div class="content_village">
-      <h1 class="text-content">สำรับอาหาร <?php echo $setfood['Name'] ?></h1>
+    <img src="../img/IMG_5561.jpg" alt="">
+      <!-- <h1 class="text-content">สำรับอาหาร <?php echo $setfood['Name'] ?></h1> -->
     </div>
   </div>
   <!--  -->
